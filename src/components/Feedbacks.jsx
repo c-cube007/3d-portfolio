@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
-import { testimonials } from "../constants";
+// import { testimonials } from "../constants";
 
 const FeedbackCard = ({
   index,
@@ -31,9 +31,9 @@ const FeedbackCard = ({
         </div>
 
         <img
-        src={image}
-        alt={`feedback-by-${name}`}
-        className="w-10 h-10 rounded-full object-cover"
+          src={image}
+          alt={`feedback-by-${name}`}
+          className="w-10 h-10 rounded-full object-cover"
         />
       </div>
     </div>
